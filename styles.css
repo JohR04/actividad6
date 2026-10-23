@@ -6,11 +6,11 @@ body { margin: 0; font-family: Arial, sans-serif; background: #f1f3f5; color: #3
 header { padding: 25px; background: #193b63; color: #fff; }
 header h1 { margin: 0 0 8px; }
 header p { margin: 0; }
-nav { background: #e6edf5; padding: 15px 25px; display: flex; gap: 25px; flex-wrap: wrap; }
+nav { background: #e6edf5; padding: 15px 25px; }
+nav ul { display: flex; gap: 25px; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
 nav a { color: #193b63; text-decoration: underline; }
 nav a:hover { text-decoration: underline; }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #b54708; outline-offset: 3px; }
-h2:focus, table:focus { outline: 3px solid #b54708; outline-offset: 3px; }
 main { padding: 12px 25px 30px; }
 section { margin-top: 28px; }
 h2 { color: #193b63; }
@@ -27,7 +27,7 @@ fieldset { min-width: 0; margin: 0 0 16px; padding: 16px; border: 1px solid #9aa
 legend { padding: 0 6px; font-weight: bold; }
 .campo { margin-bottom: 15px; }
 label { display: block; font-weight: bold; }
-input, select, textarea { display: block; width: 100%; margin-top: 5px; padding: 9px; border: 1px solid #aaa; border-radius: 4px; font: inherit; }
+input, select, textarea { display: block; width: 100%; margin-top: 5px; padding: 9px; border: 2px solid #000000; border-radius: 4px; background: #fff; color: #333; font: inherit; }
 button { padding: 11px 18px; background: #235780; color: white; border: none; border-radius: 4px; cursor: pointer; }
 button:hover { background: #193b63; }
 #respuesta { margin-bottom: 0; }
